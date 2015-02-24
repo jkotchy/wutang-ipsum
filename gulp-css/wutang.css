@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.smart-object {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+#left-panel, #middle-panel, #right-panel {
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 50px;
+  position: relative; }
+
+#middle-panel {
+  overflow-y: scroll;
+  text-align: center; }
+
+#left-panel {
+  background: #fdd23c; }
+
+div.logo {
+  display: block;
+  position: absolute;
+  top: 10%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+span.logo {
+  background: url(../images/wu-logo_@2x.png);
+  background-repeat: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 219px; }
+
+h1 {
+  color: #272727;
+  font-family: 'Abril Fatface';
+  font-size: 84px; }
+
+h2 {
+  color: #272727;
+  font-family: 'Brandon';
+  font-size: 28px;
+  text-transform: uppercase; }
+
+div.the-good-guys {
+  position: absolute;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10%;
+  text-align: center; }
+
+div.solider {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px; }
+
+div.illustration {
+  display: block;
+  position: relative;
+  z-index: -1;
+  padding: 50px 50px 0px 50px;
+  border-radius: 100%;
+  background: #fdd23c;
+  overflow: hidden;
+  border: 14px solid #f0c737; }
+
+.soldier img {
+  z-index: -1;
+  position: relative;
+  max-width: 100%;
+  height: auto; }
